@@ -3,6 +3,9 @@
 # Exclude any PSD/AI source
 *.psd
 *.ai
+*.png
+*.jpg
+*.gif
 # Exclude the build products
 build/*
 *.[oa]
