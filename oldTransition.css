@@ -1,0 +1,42 @@
+.desktop:hover {
+  transform: translate(100px, 0) scale(1.25);
+  -webkit-transform: translate(100px, 0) scale(1.25);
+  /** Chrome & Safari **/
+  -o-transform: translate(100px, 0) scale(1.25);
+  /** Opera **/
+  -moz-transform: translate(100px, 0) scale(1.25);
+  /** Firefox **/
+  transition-delay: .5s;
+  padding: 1%;
+  background: rgba(255,255,255,.9);
+  border-radius: 25px;
+}
+
+.iPad:hover {
+  transform: translate(-300px, 100px) scale(1.5);
+  -webkit-transform: translate(-300px, 100px) scale(1.5);
+  /** Chrome & Safari **/
+  -o-transform: translate(-300px, 100px) scale(1.5);
+  /** Opera **/
+  -moz-transform: translate(-300px, 100px) scale(1.5);
+  /** Firefox **/
+  transition-delay: .5s;
+  padding: 1%;
+  background: rgba(255,255,255,.9);
+  border-radius: 25px;
+}
+
+.iPhone:hover {
+  transform: translate(-600px, 100px) scale(1.75);
+  -webkit-transform: translate(-600px, 100px) scale(1.75);
+  /** Chrome & Safari **/
+  -o-transform: translate(-600px, 100px) scale(1.75);
+  /** Opera **/
+  -moz-transform: translate(-600px, 100px) scale(1.75);
+  /** Firefox **/
+  transition-delay: .5s;
+  padding: 1%;
+  background: rgba(255,255,255,.9);
+  border-radius: 25px;
+}
+
