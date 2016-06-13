@@ -24,7 +24,7 @@
         <h4>Design/Development</h4>
         <h5><a href="http://www.red-rock.com" target="_blank">view live site</a></h5>
 
-        <p>Client website for Red Rock Behavioral Health Services, a multi-location chain in Oklahoma. The client wanted to re-design their site to match all new branding/marketing.</p>
+        <p>Client website for Red Rock Behavioral Health Services, a multi-location chain in Oklahoma. The client wanted to re-design their site to match all new branding/marketing materials. HTML, CSS, PHP and JavaScript.</p>
       </div>
 
       <div id="screenshots">
@@ -81,7 +81,7 @@
         <h3>Hayes Lawn and Landscape, LLC</h3>
         <h4>Design/Development</h4>
         <h5><a href="http://www.hayeslawnandlandscape.co" target="_blank">view live site</a></h5>
-        <p>Client desired a re-design of their current website based on their new logo and marketing pieces.</p>
+        <p>This client is a rapidly growing Oklahoma landscape company. They desired a re&dash;design of their current website based on their newly re&dash;designed logo, vehicle designs, and marketing materials. The customer wanted to have the ability to make updates to images in the carousel based on new installations for landscaping and holiday lighting. They also wanted to be able to have a blog, job application forms, and contact forms for the customer to request quotes. The solution involved coding an original WordPress theme using HTML, CSS, and PHP. Once launched, I installed relevant plug-ins for security and SEO, and provided the customer training for them to maintain the site.</p>
       </div>
 
       <div id="screenshots">
@@ -138,7 +138,7 @@
         <h3>Well Preserved Advisory Group</h3>
         <h4>Development</h4>
         <h5><a href="http://www.wellpreserved.info" target="_blank">view live site</a></h5>
-        <p>Eunice Khoury is host of Well Preserved Radio Show on KTOK 1000 each Saturday at 7:00 am. The site was designed to accompany the radio show as well as contain the large amount of resources that Well Preserved offers for senior living.</p>
+        <p>Eunice Khoury is host of Well Preserved Radio Show on KTOK 1000AM each Saturday at 7:00 am. The site was designed to accompany the radio show as well as contain the large amount of resources that Well Preserved offers for senior living. The target audience for this site is seniors, age 65+. They wanted to keep the site&rsquo; usability as simple as possible. Navigation menu was to show large areas for navigation links and not collapse so as to be easily viewable. The primary focus on this site was desktop view, as they felt fewer of their audience would be using mobile devices to view the site.</p>
       </div>
 
       <div id="screenshots">
