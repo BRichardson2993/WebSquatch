@@ -138,7 +138,7 @@
         <h3>Well Preserved Advisory Group</h3>
         <h4>Development</h4>
         <h5><a href="http://www.wellpreserved.info" target="_blank">view live site</a></h5>
-        <p>Eunice Khoury is host of Well Preserved Radio Show on KTOK 1000AM each Saturday at 7:00 am. The site was designed to accompany the radio show as well as contain the large amount of resources that Well Preserved offers for senior living. The target audience for this site is seniors, age 65+. They wanted to keep the site&rsquo; usability as simple as possible. Navigation menu was to show large areas for navigation links and not collapse so as to be easily viewable. The primary focus on this site was desktop view, as they felt fewer of their audience would be using mobile devices to view the site.</p>
+        <p>Eunice Khoury is host of Well Preserved Radio Show on KTOK 1000AM each Saturday at 7:00 am. The site was designed to accompany the radio show as well as contain the large amount of resources that Well Preserved offers for senior living. The target audience for this site is seniors, age 65+. They wanted to keep the site&rsquo;s usability as simple as possible. The mobile navigation menu was to display larger areas for links and not collapse so as to be easily viewable. The primary focus on this site was desktop view, as they felt fewer of their audience would be using mobile devices to view the site.</p>
       </div>
 
       <div id="screenshots">
