@@ -18,19 +18,19 @@
 			<div class="contactForm">
 				<form method="post" action="submit.php">
 
-					<p>Your name:
+					<p>your name:
 						<br>
 						<input name="name">
 					</p>
 
-					<p>Your email:
+					<p>your email:
 						<br>
 						<input name="email" type="email">
 					</p>
 
-					<p>You phone number:
+					<p>your phone number:
 						<br>
-						<input name="phone" type="number">
+						<input name="phone" type="text">
 					</p>
 					<!-- Important: if you add any fields to this page, you will also need to update the php script -->
 
@@ -39,12 +39,12 @@
 						<input name="url">
 					</p>
 
-					<p>Your message:
+					<p>your message:
 						<br>
-						<textarea name="message" rows="10" cols="50"></textarea>
+						<textarea name="message"></textarea>
 					</p>
 
-					<button type="submit">Make Contact!</button>
+					<button type="submit">make contact!</button>
 
 
 				</form>

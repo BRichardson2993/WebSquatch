@@ -499,29 +499,43 @@ Contact Form
 }
 
 .contactForm form {
-  max-width: 40%;
-  margin: 5% auto;
+  max-width: 35%;
+  height: 598px;
+  margin: 0 auto;
   text-align: left;
   background: rgba(0, 174, 239, .5);
-  padding: 5% 0 5% 5%;
-  border: 5px ridge rgb(0, 174, 239);
+  padding: 3% 0 0 3%;
+  background: url('images/formBkgrnd.png') no-repeat;
+  background-size: 100%;
 }
 
 .contactForm p {
+  font-family: fugaz one, sans-serif;
+  color: #f7941e;
   font-size: 1.2em;
   color: #0C384D;
+  opacity: .8;
 }
 
 .contactForm input {
-  width: 80%;
-  height: 30px;
+  width: 60%;
+  height: 20px;
   font-size: 1.3em;
+  transform: rotate(-.8deg);
+  margin-top: .25em;
+  border: none;
 }
 
 .contactForm textarea {
   width: 80%;
   height: 100px;
   font-size: 1.3em;
+  transform: rotate(-.8deg);
+  border: none;
+}
+
+.contactForm button {
+  transform: rotate(-.8deg);
 }
 
 .success {
@@ -542,6 +556,11 @@ button {
   color: white;
   border-radius: 10px;
   font-size: 1em;
+  opacity: .8;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .wsEmail {
@@ -568,38 +587,48 @@ Media Queries
     max-width: 50%;
     margin: 0 auto;
   }
-   .description {
+  .description {
     margin: 0 auto;
-    background: #1175BC;
     margin-bottom: 1em;
   }
-
   .description h3,
   .description h4,
   .description h5,
   .description p {
-    color: white;
+    color: #1175BC;
     display: block;
     clear: both;
     margin: 0;
     padding: 0;
   }
-
   .description p {
     max-width: 90%;
     clear: both;
     padding: 5%;
   }
-
   .top {
     font-size: .75em;
+  }
+  .contactForm form {
+    max-width: 75%;
+    height: 750px;
+    margin: 0 auto;
+    text-align: left;
+    background: rgba(0, 174, 239, .5);
+    padding: 6% 0 0 3%;
+    background: url('images/formBkgrnd.png') no-repeat;
+    background-size: 100%;
+  }
+  button {
+    margin-left: 5%;
+  }
+  .contactForm p {
+    padding-left: 5%;
   }
   footer {
     background: none;
     height: 100px;
-
   }
-
   footer p {
     padding: 3% 0;
     margin: 0;
@@ -664,7 +693,7 @@ Media Queries
   }
   h1 {
     font-size: 2em;
-    margin-top: 1.5em;
+    margin-top: 3em;
     line-height: .85em;
   }
   h2 {
@@ -675,7 +704,6 @@ Media Queries
     margin-top: 2em;
     margin-bottom: .25em;
   }
-
   .intro {
     background-color: white;
   }
@@ -697,42 +725,35 @@ Media Queries
     min-height: 100%;
   }
   .desktop {
-    max-width: 90%;
+    max-width: 50%;
     margin-bottom: 1em;
   }
-
   .description {
     margin: 0 auto;
-    background: #1175BC;
     margin-bottom: 1em;
   }
-
   .description h3,
   .description h4,
   .description h5,
   .description p {
-    color: white;
+    color: #1175BC;
     display: block;
     clear: both;
     margin: 0;
     padding: 0;
   }
-
   .description p {
     max-width: 90%;
     clear: both;
     padding: 5%;
   }
-
   .winning {
     display: block;
   }
-
   .github {
     margin-top: 1em;
     text-align: center;
   }
-
   .github img {
     width: 20%;
   }
@@ -740,12 +761,22 @@ Media Queries
   .screenshots img {
     padding: 1em;
   }
-
   .top {
     font-size: .75em;
   }
   .contactForm form {
-    max-width: 80%;
+    padding: 8% 0 0 3%;
+    max-width: 90%;
+  }
+  .contactForm p {
+    padding-left: 5%;
+    margin: 1%;
+  }
+  .contactForm textarea {
+    height: 75px;
+  }
+  button {
+    margin-top: 10em;
   }
   .thanks h1 {
     margin-top: 2em;
