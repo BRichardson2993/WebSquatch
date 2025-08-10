@@ -1,7 +1,7 @@
 <div id="banner">
 
 		<a href="index.php" target="self"><img src="images/WebSquatchLogo400.png" alt="websquatch logo" id="logo"></a>
-		<p id="tagline">good design exists</p>
+		<p id="tagline">uncommonly seen, untamed code</p>
 
 		<nav>
 			<a href="about.php" target="_self"><img src="images/about.png" class="navIcon about" alt="about page icon"></a>

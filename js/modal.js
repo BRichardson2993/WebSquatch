@@ -1,259 +1,111 @@
- // Get the modal
- var modal = document.getElementById('myModal1');
+// Red Rock Desktop Modal --------
+var rrDesktopModal = document.getElementById('rrDesktopModal');
+var rrDesktopImg = document.getElementById('rrDesktopImg');
+rrDesktopImg.addEventListener('click', function () {
+  rrDesktopModal.style.display = "block";
+});
 
- // Get the image and insert it inside the modal - use its "alt" text as a caption
- var img = document.getElementById('myImg1');
- var modalImg = document.getElementById("img01");
- img.onclick = function () {
-   modal.style.display = "block";
-   modalImg.src = this.src;
-   modalImg.alt = this.alt;
-   captionText.innerHTML = this.alt;
- }
+// Red Rock iPad Modal --------
+var rrIpadModal = document.getElementById('rrIpadModal');
+var rrIpadImg = document.getElementById('rrIpadImg');
+// For ipad and iphone images, just enlarge the original image
+rrIpadImg.addEventListener("click", function () {
+  rrIpadModal.style.display = "block";
+  modalImg.src = this.src;
+  modalImg.alt = this.alt;
+});
 
- // Get the <span> element that closes the modal
- var span = document.getElementsByClassName("close1")[0];
-
- // When the user clicks on <span> (x), close the modal
- span.onclick = function () {
-   modal.style.display = "none";
- }
-
- //////////////////////////////////////////////////////////
-
- // Get the modal
- var modal = document.getElementById('myModal2');
-
- // Get the image and insert it inside the modal - use its "alt" text as a caption
- var img = document.getElementById('myImg2');
- var modalImg = document.getElementById("img02");
- img.onclick = function () {
-   modal.style.display = "block";
-   modalImg.src = this.src;
-   modalImg.alt = this.alt;
-   captionText.innerHTML = this.alt;
- }
-
- // Get the <span> element that closes the modal
- var span = document.getElementsByClassName("close2")[0];
-
- // When the user clicks on <span> (x), close the modal
- span.onclick = function () {
-   modal.style.display = "none";
- }
-
- //////////////////////////////////////////////////////////
-
- // Get the modal
- var modal = document.getElementById('myModal3');
-
- // Get the image and insert it inside the modal - use its "alt" text as a caption
- var img = document.getElementById('myImg3');
- var modalImg = document.getElementById("img03");
- img.onclick = function () {
-   modal.style.display = "block";
-   modalImg.src = this.src;
-   modalImg.alt = this.alt;
-   captionText.innerHTML = this.alt;
- }
-
- // Get the <span> element that closes the modal
- var span = document.getElementsByClassName("close3")[0];
-
- // When the user clicks on <span> (x), close the modal
- span.onclick = function () {
-   modal.style.display = "none";
- }
-
- //////////////////////////////////////////////////////////
- // Get the modal
- var modal = document.getElementById('myModal4');
-
- // Get the image and insert it inside the modal - use its "alt" text as a caption
- var img = document.getElementById('myImg4');
- var modalImg = document.getElementById("img04");
- img.onclick = function () {
-   modal.style.display = "block";
-   modalImg.src = this.src;
-   modalImg.alt = this.alt;
-   captionText.innerHTML = this.alt;
- }
-
- // Get the <span> element that closes the modal
- var span = document.getElementsByClassName("close4")[0];
-
- // When the user clicks on <span> (x), close the modal
- span.onclick = function () {
-     modal.style.display = "none";
-   }
-   //////////////////////////////////////////////////////////
-   // Get the modal
- var modal = document.getElementById('myModal5');
-
- // Get the image and insert it inside the modal - use its "alt" text as a caption
- var img = document.getElementById('myImg5');
- var modalImg = document.getElementById("img05");
- img.onclick = function () {
-   modal.style.display = "block";
-   modalImg.src = this.src;
-   modalImg.alt = this.alt;
-   captionText.innerHTML = this.alt;
- }
-
- // Get the <span> element that closes the modal
- var span = document.getElementsByClassName("close5")[0];
-
- // When the user clicks on <span> (x), close the modal
- span.onclick = function () {
-     modal.style.display = "none";
-   }
-   //////////////////////////////////////////////////////////
-   // Get the modal
- var modal = document.getElementById('myModal6');
-
- // Get the image and insert it inside the modal - use its "alt" text as a caption
- var img = document.getElementById('myImg6');
- var modalImg = document.getElementById("img06");
- img.onclick = function () {
-   modal.style.display = "block";
-   modalImg.src = this.src;
-   modalImg.alt = this.alt;
-   captionText.innerHTML = this.alt;
- }
-
- // Get the <span> element that closes the modal
- var span = document.getElementsByClassName("close6")[0];
-
- // When the user clicks on <span> (x), close the modal
- span.onclick = function () {
-   modal.style.display = "none";
- }
+// Red Rock iPhone Modal --------
+var rrIphoneModal = document.getElementById('rrIphoneModal');
+var rrIphoneImg = document.getElementById('rrIphoneImg');
+// For ipad and iphone images, just enlarge the original image
+rrIphoneImg.addEventListener("click", function () {
+  rrIphoneModal.style.display = "block";
+  modalImg.src = this.src;
+  modalImg.alt = this.alt;
+});
 
 
- //////////////////////////////////////////////////////////
- // Get the modal
- var modal = document.getElementById('myModal7');
+// Hayes Desktop Modal --------
+var hayesDesktopModal = document.getElementById('hayesDesktopModal');
+var hayesDesktopImg = document.getElementById('hayesDesktopImg');
+hayesDesktopImg.addEventListener('click', function () {
+  hayesDesktopModal.style.display = "block";
+});
 
- // Get the image and insert it inside the modal - use its "alt" text as a caption
- var img = document.getElementById('myImg7');
- var modalImg = document.getElementById("img07");
- img.onclick = function () {
-   modal.style.display = "block";
-   modalImg.src = this.src;
-   modalImg.alt = this.alt;
-   captionText.innerHTML = this.alt;
- }
+// Hayes iPad Modal --------
+var hayesIpadModal = document.getElementById('hayesIpadModal');
+var hayesIpadImg = document.getElementById('hayesIpadImg');
+// For ipad and iphone images, just enlarge the original image
+hayesIpadImg.addEventListener("click", function () {
+  hayesIpadModal.style.display = "block";
+  modalImg.src = this.src;
+  modalImg.alt = this.alt;
+});
 
- // Get the <span> element that closes the modal
- var span = document.getElementsByClassName("close7")[0];
-
- // When the user clicks on <span> (x), close the modal
- span.onclick = function () {
-     modal.style.display = "none";
-   }
-   //////////////////////////////////////////////////////////
-   // Get the modal
- var modal = document.getElementById('myModal8');
-
- // Get the image and insert it inside the modal - use its "alt" text as a caption
- var img = document.getElementById('myImg8');
- var modalImg = document.getElementById("img08");
- img.onclick = function () {
-   modal.style.display = "block";
-   modalImg.src = this.src;
-   modalImg.alt = this.alt;
-   captionText.innerHTML = this.alt;
- }
-
- // Get the <span> element that closes the modal
- var span = document.getElementsByClassName("close8")[0];
-
- // When the user clicks on <span> (x), close the modal
- span.onclick = function () {
-     modal.style.display = "none";
-   }
-   //////////////////////////////////////////////////////////
-   // Get the modal
- var modal = document.getElementById('myModal9');
-
- // Get the image and insert it inside the modal - use its "alt" text as a caption
- var img = document.getElementById('myImg9');
- var modalImg = document.getElementById("img09");
- img.onclick = function () {
-   modal.style.display = "block";
-   modalImg.src = this.src;
-   modalImg.alt = this.alt;
-   captionText.innerHTML = this.alt;
- }
-
- // Get the <span> element that closes the modal
- var span = document.getElementsByClassName("close9")[0];
-
- // When the user clicks on <span> (x), close the modal
- span.onclick = function () {
-   modal.style.display = "none";
- }
+// Hayes iPhone Modal --------
+var hayesIphoneModal = document.getElementById('hayesIphoneModal');
+var hayesIphoneImg = document.getElementById('hayesIphoneImg');
+// For ipad and iphone images, just enlarge the original image
+hayesIphoneImg.addEventListener("click", function () {
+  hayesIphoneModal.style.display = "block";
+  modalImg.src = this.src;
+  modalImg.alt = this.alt;
+});
 
 
- //////////////////////////////////////////////////////////
- // Get the modal
- var modal = document.getElementById('myModal10');
+// wp Desktop Modal --------
+var wpDesktopModal = document.getElementById('wpDesktopModal');
+var wpDesktopImg = document.getElementById('wpDesktopImg');
+wpDesktopImg.addEventListener('click', function () {
+  wpDesktopModal.style.display = "block";
+});
 
- // Get the image and insert it inside the modal - use its "alt" text as a caption
- var img = document.getElementById('myImg10');
- var modalImg = document.getElementById("img10");
- img.onclick = function () {
-   modal.style.display = "block";
-   modalImg.src = this.src;
-   modalImg.alt = this.alt;
-   captionText.innerHTML = this.alt;
- }
+// wp iPad Modal --------
+var wpIpadModal = document.getElementById('wpIpadModal');
+var wpIpadImg = document.getElementById('wpIpadImg');
+// For ipad and iphone images, just enlarge the original image
+wpIpadImg.addEventListener("click", function () {
+  wpIpadModal.style.display = "block";
+  modalImg.src = this.src;
+  modalImg.alt = this.alt;
+});
 
- // Get the <span> element that closes the modal
- var span = document.getElementsByClassName("close10")[0];
+// wp iPhone Modal --------
+var wpIphoneModal = document.getElementById('wpIphoneModal');
+var wpIphoneImg = document.getElementById('wpIphoneImg');
+// For ipad and iphone images, just enlarge the original image
+wpIphoneImg.addEventListener("click", function () {
+  wpIphoneModal.style.display = "block";
+  modalImg.src = this.src;
+  modalImg.alt = this.alt;
+});
 
- // When the user clicks on <span> (x), close the modal
- span.onclick = function () {
-     modal.style.display = "none";
-   }
-   //////////////////////////////////////////////////////////
-   // Get the modal
- var modal = document.getElementById('myModal11');
 
- // Get the image and insert it inside the modal - use its "alt" text as a caption
- var img = document.getElementById('myImg11');
- var modalImg = document.getElementById("img11");
- img.onclick = function () {
-   modal.style.display = "block";
-   modalImg.src = this.src;
-   modalImg.alt = this.alt;
-   captionText.innerHTML = this.alt;
- }
+// dont Desktop Modal --------
+var dontDesktopModal = document.getElementById('dontDesktopModal');
+var dontDesktopImg = document.getElementById('dontDesktopImg');
+dontDesktopImg.addEventListener('click', function () {
+  dontDesktopModal.style.display = "block";
+});
 
- // Get the <span> element that closes the modal
- var span = document.getElementsByClassName("close11")[0];
+// dont iPad Modal --------
+var dontIpadModal = document.getElementById('dontIpadModal');
+var dontIpadImg = document.getElementById('dontIpadImg');
+// For ipad and iphone images, just enlarge the original image
+dontIpadImg.addEventListener("click", function () {
+  dontIpadModal.style.display = "block";
+  modalImg.src = this.src;
+  modalImg.alt = this.alt;
+});
 
- // When the user clicks on <span> (x), close the modal
- span.onclick = function () {
-     modal.style.display = "none";
-   }
-   //////////////////////////////////////////////////////////// Get the modal
- var modal = document.getElementById('myModal12');
+// dont iPhone Modal --------
+var dontIphoneModal = document.getElementById('dontIphoneModal');
+var dontIphoneImg = document.getElementById('dontIphoneImg');
+// For ipad and iphone images, just enlarge the original image
+dontIphoneImg.addEventListener("click", function () {
+  dontIphoneModal.style.display = "block";
+  modalImg.src = this.src;
+  modalImg.alt = this.alt;
+});
 
- // Get the image and insert it inside the modal - use its "alt" text as a caption
- var img = document.getElementById('myImg12');
- var modalImg = document.getElementById("img12");
- img.onclick = function () {
-   modal.style.display = "block";
-   modalImg.src = this.src;
-   modalImg.alt = this.alt;
-   captionText.innerHTML = this.alt;
- }
-
- // Get the <span> element that closes the modal
- var span = document.getElementsByClassName("close12")[0];
-
- // When the user clicks on <span> (x), close the modal
- span.onclick = function () {
-   modal.style.display = "none";
- }

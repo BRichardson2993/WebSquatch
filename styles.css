@@ -49,10 +49,9 @@ body {
 #tagline {
   font-family: Fugaz One, sans-serif;
   color: white;
-  font-size: 4em;
+  font-size: 3rem;
   letter-spacing: .05em;
   padding: 5% 0 0 40%;
-  margin: 0 0 7% 0;
 }
 
 nav {
@@ -64,7 +63,7 @@ nav {
 .navIcon {
   display: inline-block;
   vertical-align: top;
-  max-width: 9%;
+  height: 125px;
   margin-left: 5%;
   transition: all .1s ease-in-out;
 }
@@ -118,8 +117,8 @@ a:hover {
 
 p {
   font-family: open sans, sans-serif;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 footer {
@@ -138,12 +137,15 @@ footer p {
 
 .social {
   padding-top: 20%;
+  display: flex;
+  align-items: center;
 }
 
 .socialIcon {
   display: inline;
-  max-width: 30px;
+  width: 130px;
   padding-left: 20px;
+  padding-right: 40px;
 }
 
 .top {
@@ -325,6 +327,14 @@ Portfolio Styles
   text-decoration: none;
 }
 
+.github-logo {
+  height: 75px;
+}
+
+.octocat-logo {
+  height: 75px;
+}
+
 .winning {
   display: inline;
   color: #f7941e;
@@ -413,6 +423,7 @@ Portfolio Styles
   from {
     -webkit-transform: scale(0)
   }
+
   to {
     -webkit-transform: scale(1)
   }
@@ -422,6 +433,7 @@ Portfolio Styles
   from {
     transform: scale(0)
   }
+
   to {
     transform: scale(1)
   }
@@ -430,18 +442,18 @@ Portfolio Styles
 
 /* The Close Button */
 
-.close1,
-.close2,
-.close3,
-.close4,
-.close5,
-.close6,
-.close7,
-.close8,
-.close9,
-.close10,
-.close11,
-.close12 {
+#rrDesktopModalClose,
+#rrIpadModalClose,
+#rrIphoneModalClose,
+#hayesDesktopModalClose,
+#hayesIpadModalClose,
+#hayesIphoneModalClose,
+#wpDesktopModalClose,
+#wpIpadModalClose,
+#wpIphoneModalClose,
+#dontDesktopModalClose,
+#dontIpadModalClose,
+#dontIphoneModalClose {
   position: absolute;
   top: 15px;
   right: 35px;
@@ -451,30 +463,18 @@ Portfolio Styles
   transition: 0.3s;
 }
 
-.close1:hover,
-.close2:hover,
-.close3:hover,
-.close4:hover,
-.close5:hover,
-.close6:hover,
-.close7:hover,
-.close8:hover,
-.close9:hover,
-.close10:hover,
-.close11:hover,
-.close12:hover,
-.close1:focus,
-.close2:focus,
-.close3:focus,
-.close4:focus,
-.close5:focus,
-.close6:focus,
-.close7:focus,
-.close8:focus,
-.close9:focus,
-.close10:focus,
-.close11:focus,
-.close12:focus {
+#rrDesktopModalClose:hover,
+#rrIpadModalClose:hover,
+#rrIphoneModal:hover,
+#hayesDesktopModalClose:hover,
+#hayesIpadModalClose:hover,
+#hayesIphoneModal:hover,
+#wpDesktopModalClose:hover,
+#wpIpadModalClose:hover,
+#wpIphoneModal:hover,
+#dontDesktopModalClose:hover,
+#dontIpadModalClose:hover,
+#dontIphoneModal:hover {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
@@ -575,22 +575,25 @@ Media Queries
 @media (min-width: 1025px) {}
 
 #tagline {
-  font-size: 3.5em;
+  font-size: 2em;
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
   #tagline {
-    font-size: 2.5em;
+    font-size: 1.5rem;
     line-height: 1em;
   }
+
   .desktop {
     max-width: 50%;
     margin: 0 auto;
   }
+
   .description {
     margin: 0 auto;
     margin-bottom: 1em;
   }
+
   .description h3,
   .description h4,
   .description h5,
@@ -601,14 +604,17 @@ Media Queries
     margin: 0;
     padding: 0;
   }
+
   .description p {
     max-width: 90%;
     clear: both;
     padding: 5%;
   }
+
   .top {
     font-size: .75em;
   }
+
   .contactForm form {
     max-width: 75%;
     height: 750px;
@@ -619,16 +625,20 @@ Media Queries
     background: url('images/formBkgrnd.png') no-repeat;
     background-size: 100%;
   }
+
   button {
     margin-left: 5%;
   }
+
   .contactForm p {
     padding-left: 5%;
   }
+
   footer {
     background: none;
     height: 100px;
   }
+
   footer p {
     padding: 3% 0;
     margin: 0;
@@ -641,27 +651,32 @@ Media Queries
   body {
     display: inherit;
   }
+
   #logo {
     max-width: 80%;
     float: none;
     display: block;
     margin: 0 auto;
   }
+
   #banner {
     max-width: 400px;
   }
+
   #wrapper {
     margin: 0 auto;
   }
+
   #tagline {
     display: block;
-    font-size: 1.5em;
+    font-size: 1rem;
     margin: 0 auto;
     text-align: center;
     padding: 0;
     margin: 1em 0 1.5em 0;
     color: #f7941e;
   }
+
   nav {
     position: relative;
     display: block;
@@ -670,43 +685,53 @@ Media Queries
     padding: 0;
     text-align: center;
   }
+
   .navIcon {
     margin: 0;
     padding-right: 10px;
   }
+
   .about {
     max-width: 60px;
   }
+
   .work {
     /* work icon in nav */
     max-width: 70px;
     padding-right: 15px;
   }
+
   .blog {
     max-width: 60px;
     padding-right: 0;
   }
+
   .contact {
     /* contact icon in nav */
     max-width: 90px;
     padding: 0;
   }
+
   h1 {
     font-size: 2em;
     margin-top: 3em;
     line-height: .85em;
   }
+
   h2 {
     font-size: 1em;
   }
+
   .portOptions h1 {
     font-size: 2.9em;
     margin-top: 2em;
     margin-bottom: .25em;
   }
+
   .intro {
     background-color: white;
   }
+
   .introParagraph {
     background-color: white;
     color: #1175BC;
@@ -714,24 +739,29 @@ Media Queries
     width: 90%;
     padding: 2%;
   }
+
   .magnify {
     display: block;
     padding: 0;
     margin: 0;
   }
+
   .works {
     padding: 0;
     margin: 10% 0;
     min-height: 100%;
   }
+
   .desktop {
     max-width: 50%;
     margin-bottom: 1em;
   }
+
   .description {
     margin: 0 auto;
     margin-bottom: 1em;
   }
+
   .description h3,
   .description h4,
   .description h5,
@@ -742,18 +772,22 @@ Media Queries
     margin: 0;
     padding: 0;
   }
+
   .description p {
     max-width: 90%;
     clear: both;
     padding: 5%;
   }
+
   .winning {
     display: block;
   }
+
   .github {
     margin-top: 1em;
     text-align: center;
   }
+
   .github img {
     width: 20%;
   }
@@ -761,35 +795,44 @@ Media Queries
   .screenshots img {
     padding: 1em;
   }
+
   .top {
     font-size: .75em;
   }
+
   .contactForm form {
     padding: 8% 0 0 3%;
     max-width: 90%;
   }
+
   .contactForm p {
     padding-left: 5%;
     margin: 1%;
   }
+
   .contactForm textarea {
     height: 75px;
   }
+
   button {
     margin-top: 10em;
   }
+
   .thanks h1 {
     margin-top: 2em;
     font-size: 2em;
   }
+
   .success,
   .return {
     font-size: 1em;
   }
+
   footer {
     background: none;
     height: 200px;
   }
+
   footer p {
     padding: 3% 0;
     margin: 0;
