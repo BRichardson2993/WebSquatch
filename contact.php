@@ -45,18 +45,7 @@
 					</p>
 
 					<button type="submit">make contact!</button>
-
-
 				</form>
-
-				<p class="wsEmail">My e-mail address:
-					<script type="text/javascript">
-						document.write('<a href="mailto:' + first + '@' + last + '">' + first + '@' + last + '<\/a>');
-					</script>
-					<noscript>
-						Please enable javascript or use the contact form.
-					</noscript>
-				</p>
 			</div>
 		</div>
 
